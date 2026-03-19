@@ -5,29 +5,7 @@
 
 /* ---- 1. CSS VARIABLES ---- */
 :root {
-  /* Dark mode (default) */
-  --bg:          #080b12;
-  --bg-2:        #0d1117;
-  --surface:     #111827;
-  --surface-2:   #1a2233;
-  --border:      rgba(255,255,255,0.07);
-  --border-2:    rgba(255,255,255,0.12);
-  --text:        #e8edf5;
-  --text-2:      #8b97b0;
-  --text-3:      #5a6a85;
-  --accent:      #00d4ff;
-  --accent-dim:  rgba(0, 212, 255, 0.12);
-  --accent-2:    #7c3aed;
-  --accent-3:    #10b981;
-  --shadow:      0 8px 32px rgba(0,0,0,0.4);
-  --shadow-lg:   0 24px 60px rgba(0,0,0,0.6);
-  --radius:      12px;
-  --radius-lg:   20px;
-  --nav-h:       68px;
-  --transition:  0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-[data-theme="light"] {
+  /* Light mode (default) */
   --bg:          #f5f7fc;
   --bg-2:        #edf0f7;
   --surface:     #ffffff;
@@ -39,8 +17,30 @@
   --text-3:      #94a3b8;
   --accent:      #0099cc;
   --accent-dim:  rgba(0, 153, 204, 0.10);
+  --accent-2:    #7c3aed;
+  --accent-3:    #10b981;
   --shadow:      0 8px 32px rgba(0,0,0,0.08);
   --shadow-lg:   0 24px 60px rgba(0,0,0,0.14);
+  --radius:      12px;
+  --radius-lg:   20px;
+  --nav-h:       68px;
+  --transition:  0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --bg:          #080b12;
+  --bg-2:        #0d1117;
+  --surface:     #111827;
+  --surface-2:   #1a2233;
+  --border:      rgba(255,255,255,0.07);
+  --border-2:    rgba(255,255,255,0.12);
+  --text:        #e8edf5;
+  --text-2:      #8b97b0;
+  --text-3:      #5a6a85;
+  --accent:      #00d4ff;
+  --accent-dim:  rgba(0, 212, 255, 0.12);
+  --shadow:      0 8px 32px rgba(0,0,0,0.4);
+  --shadow-lg:   0 24px 60px rgba(0,0,0,0.6);
 }
 
 /* ---- 2. RESET & BASE ---- */
